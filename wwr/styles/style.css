@@ -5,7 +5,12 @@
     font-size: 1.5em;
     line-height: 1.5em;
   }
-
+header {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
 nav a {
     color: #78c5d7;
     text-align: center;
@@ -43,6 +48,7 @@ nav a:hover {
     background-color: #134266
 }
 .book {
+    text-align: center;
     color: #78c5d7;
     background-color: #134266
 }
@@ -94,5 +100,5 @@ footer p a:hover {
     width: 80px;
 }  
 #hero-img {
-    width: 100px;
+    width: 100%;
 }
