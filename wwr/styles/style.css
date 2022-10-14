@@ -1,83 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik+Dirt&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
     font-size: 1.5em;
     line-height: 1.5em;
-  }
-
-footer {
-    text-align: center;
+    --heading-font: "Rubik Dirt";
+    --paragraph-font: Poppins, Helvetica, sans-serif;
 }
+
 nav a {
+    padding: 35px;
     color: #78c5d7;
     text-align: center;
     text-decoration: none;
 }
 #hero-msg {
+    padding: 15px;
     text-align: center;
+    font-family: Rubik Dirt;
 }
 #hero-msg h1 {
+    padding: 15px;
     text-align: center;
+    font-family: Rubik Dirt;
 }
 #hero-msg h4 {
+    padding: 15px;
     text-align: center;
+    font-family: Rubik Dirt;
 }
 .button-box {
+    padding: 15px;
     text-align: center;
+    font-family: Poppins, Helvetica, sans-serif;
 }
 main section {
     text-align: center;
+    font-family: Poppins, Helvetica, sans-serif;
+    
 }
 .home-title {
+    margin-top: 10px;
     color: #78c5d7;
+    font-family: Rubik Dirt;
+    font-size: 2em 
 }
 #background {
     height: 725px;
 }
 h4 {
+    margin: 0;
+    padding: 0;
     color: #78c5d7;
 }
 body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, Helvetica, sans-serif;
     background-color: #134266
 }
 header {
-    background-color: #134266
+    font-family: Rubik Dirt;
+    background-color: #134266 
 }
 nav a:hover {
     color: #78c5d7;
     background-color: #134266
 }
-.book {
+.book, .join {
+    margin-top: 50px;
+    padding: 15px 30px;
+    border-radius: 5px;
     text-align: center;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 18px; 
     color: #78c5d7;
     background-color: #134266
 }
-.join {
+    
+.book-hover, .join-hover {
     color: #78c5d7;
     background-color: #134266
 }
-.book:hover {
-    color: #78c5d7;
-    background-color: #134266
-}
-.join:hover {
-    color: #78c5d7;
-    background-color: #134266
-}
+
 #background {
     background-color: #134266
 }
 .msg {
-    background-color: #134266
+    padding: 35px;
+    background-color: #134266;
+    line-height: 1.5em;
 }
 msg h2 {
     color: #78c5d7;
 }
 msg p {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 2em;
     color: #78c5d7;
 }
 footer {
+    margin-top: 100px;
+    padding: 25px 50px;
+    text-align: center;
     color: #78c5d7;
     background-color: #134266
 }
@@ -95,11 +122,19 @@ footer p a:hover {
     text-decoration: underline;
 }
 .logo {
+    padding-top: 5px;
+    padding-left: 20px;
     width: 80px;
 }
 .icon {
     width: 80px;
 }  
 #hero-img {
-    width: 100%;
+    padding: 10px 10px;
+    width: 95%;
+    
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 500px;
+    border: 10px solid #78c5d7;
 }
