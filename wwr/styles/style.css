@@ -6,7 +6,7 @@
     text-align: center;
     font-size: 1.5em;
     line-height: 1.5em;
-    --heading-font: "Rubik Dirt";
+    --heading-font: "Rubik Dirt", arial, sans-serif;
     --paragraph-font: Poppins, Helvetica, sans-serif;
 }
 
@@ -19,17 +19,17 @@ nav a {
 #hero-msg {
     padding: 15px;
     text-align: center;
-    font-family: Rubik Dirt;
+    font-family: Rubik Dirt, arial, sans-serif;
 }
 #hero-msg h1 {
     padding: 15px;
     text-align: center;
-    font-family: Rubik Dirt;
+    font-family: Rubik Dirt, arial, sans-serif;
 }
 #hero-msg h4 {
     padding: 15px;
     text-align: center;
-    font-family: Rubik Dirt;
+    font-family: Rubik Dirt, arial, sans-serif;
 }
 .button-box {
     padding: 15px;
@@ -44,7 +44,7 @@ main section {
 .home-title {
     margin-top: 10px;
     color: #78c5d7;
-    font-family: Rubik Dirt;
+    font-family: Rubik Dirt, arial, sans-serif;
     font-size: 2em 
 }
 #background {
@@ -63,7 +63,7 @@ body {
     background-color: #134266
 }
 header {
-    font-family: Rubik Dirt;
+    font-family: Rubik Dirt, arial, sans-serif;
     background-color: #134266 
 }
 nav a:hover {
