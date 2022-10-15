@@ -3,7 +3,6 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    text-align: center;
     font-size: 1.5em;
     line-height: 1.5em;
     --heading-font: "Rubik Dirt", arial, sans-serif;
@@ -121,7 +120,6 @@ footer p a:hover {
 }
 .logo {
     padding-top: 5px;
-    padding-left: 20px;
     width: 80px;
 }
 .icon {
@@ -130,7 +128,7 @@ footer p a:hover {
 #hero-img {
     padding: 10px 10px;
     width: 95%;
-    
+    box-sizing: border-box;    
 }
 .card-img {
     border: 10px solid #78c5d7;
