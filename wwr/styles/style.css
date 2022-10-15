@@ -49,6 +49,7 @@ main section {
 }
 #background {
     height: 725px;
+    background-color: #134266
 }
 h4 {
     margin: 0;
@@ -85,9 +86,6 @@ nav a:hover {
     background-color: #134266
 }
 
-#background {
-    background-color: #134266
-}
 .msg {
     padding: 35px;
     background-color: #134266;
@@ -134,7 +132,6 @@ footer p a:hover {
     width: 95%;
     
 }
-.rivers-card, .camping-card, .rapids-card {
-    margin: 500px;
+.card-img {
     border: 10px solid #78c5d7;
 }
