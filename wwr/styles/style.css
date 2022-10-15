@@ -8,7 +8,6 @@
     --heading-font: "Rubik Dirt", arial, sans-serif;
     --paragraph-font: Poppins, Helvetica, sans-serif;
 }
-
 nav a {
     padding: 35px;
     color: #78c5d7;
@@ -78,13 +77,11 @@ nav a:hover {
     font-size: 18px; 
     color: #78c5d7;
     background-color: #134266
-}
-    
+}   
 .book-hover, .join-hover {
     color: #78c5d7;
     background-color: #134266
 }
-
 .msg {
     padding: 35px;
     background-color: #134266;
